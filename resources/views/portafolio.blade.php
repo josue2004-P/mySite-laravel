@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D&A Software R</title>
     <link href="https://fonts.cdnfonts.com/css/orbitron" rel="stylesheet" />
-    <link rel="stylesheet" href={{ asset('css/styles.css')}} />
+    @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="icon" type="image" href="./img/favicon.png" />
 
     <style>

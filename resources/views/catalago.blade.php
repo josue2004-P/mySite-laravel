@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D&A Software R</title>
     <link href="https://fonts.cdnfonts.com/css/orbitron" rel="stylesheet" />
-    <link rel="stylesheet" href={{ asset('css/styles.css')}} />    
-    <link rel="stylesheet" href={{ asset('css/bootstrap-4.3.1.css')}} />
+    @vite(['resources/css/app.css','resources/js/app.js','resources/css/bootstrap-4.3.1.css','resources/js/jquery-3.3.1.min.js', 'resources/js/popper.min.js','resources/js/bootstrap-4.3.1.js',])
     <link rel="icon" type="image" href="./img/favicon.png" />
   </head>
   <body id="main">
@@ -490,12 +489,5 @@
         </p>
       </div>
     </footer>
-
-    <script src="./js/main.js"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.3.1.js"></script>
   </body>
 </html>
