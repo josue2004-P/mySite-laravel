@@ -1,3 +1,12 @@
+import './bootstrap';
+
+import Alpine from 'alpinejs';
+
+window.Alpine = Alpine;
+
+Alpine.start();
+
+
 document.addEventListener('DOMContentLoaded', function() {
     // Seleccionar el botón del menú y el navbar
     var menuButton = document.querySelector('.tootle-navbar');
